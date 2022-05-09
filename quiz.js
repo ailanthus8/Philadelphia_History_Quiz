@@ -1,6 +1,6 @@
 var myQuestions = [
 	{
-		question: "Philadelphians consumer twelve times the average number of pretzels eaten in the rest of the US. What is the proper shape for a Philadelphia soft pretzel?",
+		question: "Philadelphians consume twelve times the average number of pretzels eaten in the rest of the US. What is the proper shape for a Philadelphia soft pretzel?",
 		answers: {
 			a: 'Heart-shaped, like praying arms',
 			b: 'Circular',
