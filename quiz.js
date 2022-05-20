@@ -10,6 +10,39 @@ var myQuestions = [
 	  correctAnswer: "c"
 	},
 	{
+		question: "Which famous comic book artist was born in Philadelphia?",
+		answers: {
+		  a: "Art Spiegelman" + " ",
+		  b: "Charles M. Schultz" + " ",
+		  c: "R. Crumb"
+		},
+		correctAnswer: "c"
+	  },
+
+	  {
+		question:
+		  "In 2017, which household object appeared as a giant sculpture on the plaza of a downtown building next to a statue of former mayor Frank Rizzo?",
+		answers: {
+		  a: "A pretzel" + " ",
+		  b: "A clothespin" + " ",
+		  c: "An Afro pick"
+		},
+		correctAnswer: "c"
+	  },
+	
+	  {
+		question:
+		  "Why did 92-year old city planner and Bacon brothers dad Ed Bacon ride a skateboard across LOVE Park in 2002?",
+		answers: {
+		  a: "To protest the park's misuse by skateboarders" + " ",
+		  b: "To try out a new sport he had seen on ESPN" + " ",
+		  c:
+			"To support young people who used it as a world-renowned skateboard park"
+		},
+		correctAnswer: "c"
+	  },
+
+	{
 	  question:
 		"Philadelphia hosted the first Republican National Convention in 1856. In addition to choosing presidential candidates, what was the purpose of the meeting?",
 	  answers: {
@@ -32,37 +65,7 @@ var myQuestions = [
 	  correctAnswer: "c"
 	},
   
-	{
-	  question: "Which famous comic book artist was born in Philadelphia?",
-	  answers: {
-		a: "Art Spiegelman" + " ",
-		b: "Charles M. Schultz" + " ",
-		c: "R. Crumb"
-	  },
-	  correctAnswer: "c"
-	},
-	{
-	  question:
-		"In 2017, which household object appeared as a giant sculpture on the plaza of a downtown building next to a statue of former mayor Frank Rizzo?",
-	  answers: {
-		a: "A pretzel" + " ",
-		b: "A clothespin" + " ",
-		c: "An Afro pick"
-	  },
-	  correctAnswer: "c"
-	},
-  
-	{
-	  question:
-		"Why did 92-year old city planner and Bacon brothers dad Ed Bacon ride a skateboard across LOVE Park in 2002?",
-	  answers: {
-		a: "To protest the park's misuse by skateboarders" + " ",
-		b: "To try out a new sport he had seen on ESPN" + " ",
-		c:
-		  "To support young people who used it as a world-renowned skateboard park"
-	  },
-	  correctAnswer: "c"
-	},
+	
 	{
 	  question:
 		"In what year did Philly civil rights activist, scholar, and athlete Octavius Catto succeed in his campaign to desegrete Philadelphia streetcars?",
@@ -233,4 +236,4 @@ var myQuestions = [
 	  showResults(questions, quizContainer, resultsContainer);
 	};
   }
-
+  
