@@ -21,7 +21,7 @@ var myQuestions = [
 
 	  {
 		question:
-		  "In 2017, which household object appeared as a giant sculpture on the plaza of a downtown building next to a statue of former mayor Frank Rizzo?",
+		  "In 2017, which household object appeared as a giant sculpture on the plaza of a downtown building next to a statue of controversial former mayor Frank Rizzo?",
 		answers: {
 		  a: "A pretzel" + " ",
 		  b: "A clothespin" + " ",
@@ -68,7 +68,7 @@ var myQuestions = [
 	
 	{
 	  question:
-		"In what year did Philly civil rights activist, scholar, and athlete Octavius Catto succeed in his campaign to desegrete Philadelphia streetcars?",
+		"In what year did the dashing Philly civil rights activist, scholar, and athlete Octavius Catto succeed in his campaign to desegrete Philadelphia streetcars?",
 	  answers: {
 		a: "1864" + " ",
 		b: "1948" + " ",
@@ -77,14 +77,14 @@ var myQuestions = [
 	  correctAnswer: "a"
 	},
 	{
-	  question: "How long has IKEA been in Philadelphia?",
+	  question: "Which of these Philadelphia firsts is correct?",
 	  answers: {
-		a: "Since 1974" + " ",
-		b: "Since 2001" + " ",
+		a: "The US Marine Corps was born in a Philadelphia bar" + " ",
+		b: "Father's Day was founded in the city" + " ",
 		c:
-		  "The Swedes were the first to build their homes in Philadelphia, in 1638. In 1985, three hundred forty seven years later, IKEA arrived to furnish them."
+		  "The Swedes first built their homes in Philadelphia in 1750"
 	  },
-	  correctAnswer: "c"
+	  correctAnswer: "a"
 	}
   ];
   
@@ -138,12 +138,12 @@ var myQuestions = [
 		);
 	  }
   
-	  // finally combine our output list into one string of html and put it on the page
+	  // finally combine the output list into one string of html and put it on the page
 	  quizContainer.innerHTML = output.join("");
 	}
   
 	function showResults(questions, quizContainer, resultsContainer) {
-	  // gather answer containers from our quiz
+	  // gather answer containers from the quiz
 	  var answerContainers = quizContainer.querySelectorAll(".answers");
   
 	  // keep track of user's answers
@@ -185,7 +185,7 @@ var myQuestions = [
 	  // print a comment about each possible quiz score
 	  if (numCorrect === 8) {
 		resultsContainer.innerHTML =
-		  "8 out of 8 answers correct? You deserve a sausage and pepper hoagie!";
+		  "8 out of 8 answers correct? You deserve an Italian hoagie!";
 	  }
   
 	  if (numCorrect === 7) {
