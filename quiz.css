@@ -5,17 +5,27 @@
 	color: #fff !important;
 	background-color: #0051ba;
 	text-align: left;
+	padding-left: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 14px;
 	font-size: 36px;
-	padding: 14px;
+	margin-top: 0px;
+	margin-bottom: 0px;
   }
 
   h3 {
 	font-family: Proxima Nova, sans-serif;
-	color: #000 !important;
-	background-color: #ffcc00;
+	color: #fff !important;
+	background-color: #EC3D4D;
 	text-align: left;
+	margin-left: 14px;
 	font-size: 36px;
-	padding: 14px;
+	padding-left: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	margin-bottom: 14px;
   }
 
   div.question {
@@ -60,7 +70,7 @@
   }
   #submit:hover {
 	font-family: Proxima Nova, sans-serif;
-	background-color: #ffdb0c;
+	background-color: #EC3D4D;
 	color: #000;
   }
   
@@ -69,12 +79,15 @@
 	padding-top: 20px;
 	text-align: center;
 	color: black;
-	
   }
   
   #results {
 	display: flex;
 	flex-direction: column;
 	font-family: Proxima Nova, sans-serif;
-	text-align: center;
+	text-align: left;
 	font-size: 18px;
+	margin-left: 14px;
+   
+  }
+  
